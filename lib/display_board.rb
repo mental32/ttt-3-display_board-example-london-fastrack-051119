@@ -5,5 +5,3 @@ def display_board
     puts (i % 2 == 0) ? "   |   |   " : "-----------"
   end
 end
-
-display_board
