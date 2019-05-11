@@ -2,7 +2,7 @@
 
 def display_board
   for i in 0..6 do
-    puts (i % 2 == 0) ? " |  | " : "-----------"
+    puts (i % 2 == 0) ? "   |   |   " : "-----------"
   end
 end
 
